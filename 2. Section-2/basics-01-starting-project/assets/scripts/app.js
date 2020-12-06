@@ -1,8 +1,9 @@
 // alert("this will work !")
-let currentResult = 0 ;
+const defaultResult = 0 ;
+let currentResult = defaultResult ;
 
 currentResult = currentResult + 10 ;
 
-let calculationDescription = '( ' + currentResult + ' + 10 )' ; // string concatenation
+let calculationDescription = '( ' + defaultResult + ' + 10 )' ; // string concatenation
 
 outputResult(currentResult, calculationDescription);
